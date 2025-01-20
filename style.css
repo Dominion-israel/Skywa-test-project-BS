@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mid-text {
+    font-size: 14px;
+}
+
+body > main > div > div > div > div.container.d-flex > div.col-8.fw-semibold {
+    /*font-size: 14px;*/
+}
