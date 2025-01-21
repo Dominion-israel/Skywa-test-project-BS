@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer1 {
+    min-height: 5rem;
+    background: #20034e;
+}
+
+.img1 {
+    max-width: 4rem;
+    mix-blend-mode: color-burn;
+}

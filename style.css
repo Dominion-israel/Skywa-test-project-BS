@@ -11,3 +11,9 @@
 body > main > div > div > div > div.container.d-flex > div.col-8.fw-semibold {
     /*font-size: 14px;*/
 }
+
+.mid-img {
+    height: 3rem;
+    width: 7rem;
+    mix-blend-mode: darken;
+}
