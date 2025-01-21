@@ -68,8 +68,8 @@
         </div>
     </section>
     <main>
-        <div class="container mt-3">
-            <div class="col-6 ">
+        <div class="container mt-3 d-flex">
+            <div class="col-5 ">
                 <div class="row text-start d-block">
                     <h1 class="fw-bold text-dark"><em>GET IN TOUCH</em></h1>
                     <div class="col-7">
@@ -110,8 +110,29 @@
                             </div>
                     </div>
                 </div>
-                
-                
+            </div>
+            <div class="col-6">
+                <form class="border p-4 rounded-2 shadow p-3 mb-5 bg-body-tertiary rounded">
+                    <div class="mb-3">
+                        <label for="exampleInputName" class="form-label">Name</label>
+                        <input type="text" class="form-control shadow  bg-body-tertiary rounded" id="exampleInputName aria-describedby="Name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control shadow  bg-body-tertiary rounded" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Message
+                        </label>
+                        <br>
+                        <textarea name="Message" id="Message" cols="26" rows="7"
+                        placeholder="Please tell us what you want to say" class="small-text" ></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary fw-semibold shadow bg-body-tertiary rounded">Submit</button>
+                    </div>
+                </form>
+            </div>
         </div>
     </main>
 
