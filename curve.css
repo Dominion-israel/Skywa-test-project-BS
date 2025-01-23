@@ -7,7 +7,7 @@
 .curvedback {
     width: 100%;
     min-height: 32rem;
-    background: rgb(26, 7, 129);
+    background: #1a0781;
     border-bottom-right-radius: 50% ;
     border-bottom-left-radius: 50% ;
 }
@@ -19,4 +19,10 @@
 
 .small-text {
     font-size: 12px;
+}
+
+@media screen and (max-width:538px) {
+    .curvedback {
+        min-height: 42rem;
+    }
 }
