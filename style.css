@@ -21,3 +21,13 @@ body > main > div > div > div > div.container.d-flex > div.col-8.fw-semibold {
 .button1{
     max-width: 4rem;
 }
+
+.ta-width {
+    width: 106%;
+}
+
+@media screen and (max-width:770px) {
+    .info-div {
+        left: 4rem;
+    }
+}
