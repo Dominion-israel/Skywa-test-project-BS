@@ -4,12 +4,24 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: sans-serif;
+}
+
 .mid-text {
     font-size: 14px;
 }
 
 body > main > div > div > div > div.container.d-flex > div.col-8.fw-semibold {
     /*font-size: 14px;*/
+}
+
+.big-img {
+    height: 10rem;
+    width: 14rem;
+    mix-blend-mode: color-burn;
+    /*left:-40px;*/
+    top: -2rem;
 }
 
 .mid-img {
@@ -23,11 +35,22 @@ body > main > div > div > div > div.container.d-flex > div.col-8.fw-semibold {
 }
 
 .ta-width {
-    width: 106%;
+    width: 106.5%;
+}
+
+.links {
+    text-decoration: none;
+}
+
+@media screen and (max-width:600px) {
+    .big-img {
+        width: 10rem;
+        left: -2rem;
+    }
 }
 
 @media screen and (max-width:770px) {
     .info-div {
-        left: 4rem;
+       left: 4rem;
     }
 }
