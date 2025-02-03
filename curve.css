@@ -7,7 +7,7 @@
 .curvedback {
     width: 100%;
     min-height: 32rem;
-    background: #270168;
+    background: linear-gradient(to bottom right, rgb(34, 0, 114),rgba(55, 13, 153, 0.6),rgba(30, 2, 80, 0.7));
     border-bottom-right-radius: 50% ;
     border-bottom-left-radius: 50% ;
 }

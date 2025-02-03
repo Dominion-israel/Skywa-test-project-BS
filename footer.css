@@ -7,7 +7,7 @@
 .footer1 {
     min-height: 5rem;
     min-width: 100%;
-    background: #270168;
+    background: linear-gradient( rgba(18, 7, 83, 0.9), rgba(9, 1, 24, 0.9));
 }
 
 .img1 {
