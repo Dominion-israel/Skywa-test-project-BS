@@ -38,8 +38,9 @@ body > main > div > div > div > div.container.d-flex > div.col-8.fw-semibold {
     mix-blend-mode: darken;
 }
 
-.button1{
-    max-width: 4rem;
+.btn1{
+    max-width: 10rem;
+    left: -10px;
 }
 
 .ta-width {
@@ -80,7 +81,7 @@ body > main > div > div > div > div.container.d-flex > div.col-8.fw-semibold {
 
 
     .btn1 {
-        left: -45px;
+        left: -32px;
         
     }
 }
