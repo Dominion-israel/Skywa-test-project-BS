@@ -26,3 +26,9 @@
         min-height: 42rem;
     }
 }
+
+@media screen and (max-width:400px) {
+    .curvedback {
+        min-height: 49rem;
+    }
+}
